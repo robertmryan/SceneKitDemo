@@ -8,13 +8,15 @@
 
 /* Begin PBXFileReference section */
 		C488C3A82FC8BAAE008BBFBF /* SceneKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SceneKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C488C3C02FC8BAB0008BBFBF /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		C488C3C12FC8BAB0008BBFBF /* LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = LICENSE.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
 		C488C3BA2FC8BAB0008BBFBF /* Exceptions for "SceneKitDemo" folder in "SceneKitDemo" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Source/Resources/Info.plist,
 			);
 			target = C488C3A72FC8BAAE008BBFBF /* SceneKitDemo */;
 		};
@@ -45,6 +47,8 @@
 		C488C39F2FC8BAAE008BBFBF = {
 			isa = PBXGroup;
 			children = (
+				C488C3C02FC8BAB0008BBFBF /* README.md */,
+				C488C3C12FC8BAB0008BBFBF /* LICENSE.md */,
 				C488C3AA2FC8BAAE008BBFBF /* SceneKitDemo */,
 				C488C3A92FC8BAAE008BBFBF /* Products */,
 			);
@@ -147,7 +151,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UZAPXQTVQ4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SceneKitDemo/Info.plist;
+				INFOPLIST_FILE = SceneKitDemo/Source/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -165,7 +169,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -179,7 +183,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = UZAPXQTVQ4;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = SceneKitDemo/Info.plist;
+				INFOPLIST_FILE = SceneKitDemo/Source/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -197,7 +201,7 @@
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
